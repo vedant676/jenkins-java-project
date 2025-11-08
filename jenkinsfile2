@@ -6,7 +6,7 @@ stage("Testing the application"){
            echo "====== Testing Java Application completed====="
          """      
       }
-   }
+   }      
 stage("Building the Docker Image"){
      steps {
          sh """
